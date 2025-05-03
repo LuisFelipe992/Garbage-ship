@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo</title>
+    <style>
+        canvas{
+           
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img{
+            display: none;
+        }
+    </style>
+    <script src="arquivos/carregamento.js"></script>
+</head>
+<body>
+    <div id="lixo">
+        <img src="arquivos/imagens/Lixo/lixo_0.png" name="lixo"alt="" onload="loading(0);">
+        <img src="arquivos/imagens/Lixo/lixo_1.png" name="lixo" alt="" onload="loading(1);">
+        <img src="arquivos/imagens/Lixo/lixo_2.png" name="lixo" alt="" onload="loading(2);">
+        <img src="arquivos/imagens/Lixo/lixo_3.png" name="lixo" alt="" onload="loading(3);">
+        <img src="arquivos/imagens/Lixo/lixo_4.png" name="lixo" alt="" onload="loading(4)">
+        <img src="arquivos/imagens/Lixo/lixo_5.png" name="lixo" alt="" onload="loading(5)">
+        <img src="arquivos/imagens/Lixo/lixo_6.png" name="lixo" alt="" onload="loading(6)">
+        <img src="arquivos/imagens/Lixo/reciclar.png"name="lixo" alt="" id="r" onload="loading(7)">
+    </div>
+
+    <div style="display:none; position: absolute ; top:10%; left:50%; color: white; background-color: rgba(0, 0, 0, 0.226);" id="conq"></div>
+
+    <div>
+        <img id="plano" src="arquivos/imagens/fundo.png" alt="" onload="loading(8)">
+        <img id="img"   src="arquivos/imagens/barco0.png" alt="" onload="loading(9)">
+        <img id="ilha"  src="arquivos/imagens/ilha.png" alt="" onload="loading(10)">
+        <img id="ceu"   src="arquivos/imagens/sky.png" alt="" onload="loading(11)">
+    </div>
+
+    <div id="agua" style="display: none;">
+        <img src="arquivos/imagens/tmp/0022.png" alt="" id="22">
+        <img src="arquivos/imagens/tmp/0023.png" alt="" id="23">
+        <img src="arquivos/imagens/tmp/0024.png" alt="" id="24">
+        <img src="arquivos/imagens/tmp/0025.png" alt="" id="25">
+        <img src="arquivos/imagens/tmp/0026.png" alt="" id="26">
+        <img src="arquivos/imagens/tmp/0027.png" alt="" id="27">
+        <img src="arquivos/imagens/tmp/0028.png" alt="" id="28">
+        <img src="arquivos/imagens/tmp/0029.png" alt="" id="29">
+        <img src="arquivos/imagens/tmp/0030.png" alt="" id="30">
+        <img src="arquivos/imagens/tmp/0031.png" alt="" id="31">
+        <img src="arquivos/imagens/tmp/0032.png" alt="" id="32">
+        <img src="arquivos/imagens/tmp/0033.png" alt="" id="33">
+        <img src="arquivos/imagens/tmp/0034.png" alt="" id="34">
+        <img src="arquivos/imagens/tmp/0035.png" alt="" id="35">
+        <img src="arquivos/imagens/tmp/0036.png" alt="" id="36">
+        <img src="arquivos/imagens/tmp/0037.png" alt="" id="37">
+        <img src="arquivos/imagens/tmp/0038.png" alt="" id="38">
+        <img src="arquivos/imagens/tmp/0039.png" alt="" id="39">
+        <img src="arquivos/imagens/tmp/0040.png" alt="" id="40">
+        <img src="arquivos/imagens/tmp/0041.png" alt="" id="41">
+        <img src="arquivos/imagens/tmp/0042.png" alt="" id="42">
+        <img src="arquivos/imagens/tmp/0043.png" alt="" id="43">
+        <img src="arquivos/imagens/tmp/0044.png" alt="" id="44">
+        <img src="arquivos/imagens/tmp/0045.png" alt="" id="45">
+        <img src="arquivos/imagens/tmp/0046.png" alt="" id="46">
+        <img src="arquivos/imagens/tmp/0047.png" alt="" id="47">
+    </div>
+    <script src="arquivos/mar.js"></script>
+    <script src="arquivos/entrada.js"></script>
+    <script src="arquivos/icones_especiais.js"></script>
+    <script src="arquivos/colisao.js"></script>
+    <script src="arquivos/classes.js"></script>
+    <script src="arquivos/mudaDeCena.js"></script>
+    <script src="arquivos/descricao.js"></script>
+    <script src="arquivos/teclas.js"></script>
+    <script src="arquivos/tamanhoDosObjetos.js"></script>
+    <script src="arquivos/index.js"></script>
+    <script src="arquivos/transicao.js"></script>
+    
+    
+    
+</body>
+</html>
