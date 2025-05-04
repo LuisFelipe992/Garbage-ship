@@ -1,0 +1,12 @@
+-NAVIO-
+	peso limpo;
+	peso somado;
+	peso da carga;
+	carga máxima;
+	altura sobre agua;
+	
+
+-AMBIENTE-
+	nível de poluição;
+	
+	
